@@ -346,4 +346,14 @@ public class ReadDataActivity extends AppCompatActivity {
         Log.i(TAG, "Ready");
     }
 
+    public void updateData(MenuItem item) {
+        fitSignIn(FitActionRequestCodeRead.UPDATE_AND_READ_DATA);
+        updateAndReadData();
+    }
+
+
+    public void deleteData(MenuItem item) {
+        fitSignIn(FitActionRequestCodeRead.DELETE_DATA);
+        deleteData();
+    }
 }

@@ -6,13 +6,16 @@
     <item android:id="@+id/action_create_subs"
         android:title="Create subscribtion"
         android:orderInCategory="100"
+        android:onClick="createSubs"
         app:showAsAction="never" />
     <item android:id="@+id/action_cancel_subs"
         android:title="Cancel subscribtion"
         android:orderInCategory="100"
+        android:onClick="cancelSubs"
         app:showAsAction="never" />
     <item android:id="@+id/action_dump_subs"
         android:title="Delete all subscribtions"
         android:orderInCategory="100"
+        android:onClick="dumpSubs"
         app:showAsAction="never" />
 </menu>

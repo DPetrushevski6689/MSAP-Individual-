@@ -278,4 +278,18 @@ public class RecordDataActivity extends AppCompatActivity {
                     }).show();
         }
     }
+
+    public void dumpSubs(MenuItem item) {
+        dumpSubscribtions();
+    }
+
+
+    public void cancelSubs(MenuItem item) {
+        cancelSubscription();
+    }
+
+
+    public void createSubs(MenuItem item) {
+        createSubs(item);
+    }
 }

@@ -6,9 +6,11 @@
     <item android:id="@+id/action_delete_data"
         android:title="Delete Data"
         android:orderInCategory="100"
+        android:onClick="deleteData"
         app:showAsAction="never" />
     <item android:id="@+id/action_update_data"
         android:title="Update Data"
         android:orderInCategory="100"
+        android:onClick="updateData"
         app:showAsAction="never" />
 </menu>
