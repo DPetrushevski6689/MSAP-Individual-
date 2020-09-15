@@ -271,7 +271,7 @@ public class ReadDataActivity extends AppCompatActivity {
 
         return Fitness.getHistoryClient(this,this.getGoogleAccount())
                 .updateData(request)
-                .addOnSuccessListener(new OnSuccessListener<Void>() {
+                .addOnSuccessListener( new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
                         Log.i(TAG,"Data update was successful");

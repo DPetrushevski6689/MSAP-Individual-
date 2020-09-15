@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:onClick="recieveDataButton"
-            android:text="Record your data" />
+            android:text="Receive your data" />
 
     </LinearLayout>
 
